@@ -2,24 +2,25 @@ package main
 
 import (
 	"fmt"
-	"sort"
 )
 
 func groupAnagramsFixedArr(strs []string) [][]string {
-	res := make(map[string][]string)
-	for _, word := range strs {
-		runes := []rune(word)
-		sort.Slice(runes, func(i, j int) bool {
-			return runes[i] < runes[j]
-		})
-		key := string(runes)
-		res[key] = append(res[key], word)
-	}
-	result := [][]string{}
-	for _, val := range res {
-		result = append(result, val)
-	}
-	return result
+	res := make(map[[26]int][]string)
+
+    for _, s := range strs {
+        var count [26]int
+        for _, c := range s {
+            count[c-'a']++
+        }
+        res[count] = append(res[count], s)
+    }
+
+    var result [][]string
+    for _, group := range res {
+        result = append(result, group)
+    }
+
+    return result
 }
 
 func main() {

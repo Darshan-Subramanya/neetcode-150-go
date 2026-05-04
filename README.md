@@ -9,6 +9,7 @@ Solving the [Neetcode 150](https://neetcode.io/practice) problem set in Go, as p
 | 1   | Contains Duplicate | Arrays & Hashing | Easy       |
 | 2   | Is Anagram         | Arrays & Hashing | Easy       |
 | 3   | Two Sum            | Arrays & Hashing | Easy       |
+| 4   | Group Anagrams     | Arrays & Hashing | Medium     |
 
 > Updated as problems are solved.
 

@@ -4,13 +4,14 @@ Solving the [Neetcode 150](https://neetcode.io/practice) problem set in Go, as p
 
 ## Progress
 
-| #   | Problem                 | Category         | Difficulty |
-| --- | ----------------------- | ---------------- | ---------- |
-| 1   | Contains Duplicate      | Arrays & Hashing | Easy       |
-| 2   | Is Anagram              | Arrays & Hashing | Easy       |
-| 3   | Two Sum                 | Arrays & Hashing | Easy       |
-| 4   | Group Anagrams          | Arrays & Hashing | Medium     |
-| 5   | Top K frequent elements | Arrays & Hashing | Medium     |
+| #   | Problem                   | Category         | Difficulty |
+| --- | ------------------------- | ---------------- | ---------- |
+| 1   | Contains Duplicate        | Arrays & Hashing | Easy       |
+| 2   | Is Anagram                | Arrays & Hashing | Easy       |
+| 3   | Two Sum                   | Arrays & Hashing | Easy       |
+| 4   | Group Anagrams            | Arrays & Hashing | Medium     |
+| 5   | Top K frequent elements   | Arrays & Hashing | Medium     |
+| 6   | Encode and Decode Strings | Arrays & Hashing | Medium     |
 
 > Updated as problems are solved.
 
